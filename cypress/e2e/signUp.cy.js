@@ -7,8 +7,8 @@ describe('SignUp', () => {
     homePage.clikSignUpMenu();
   })
   it('with user 1', () => {
-    signUpPage.inputUsername('test9108');
-    signUpPage.inputPassword('test9108');
+    signUpPage.inputUsername('test91080002');
+    signUpPage.inputPassword('test91080002');
     signUpPage.clicksignupButton();
     signUpPage.ceksignupsukses();
   })
